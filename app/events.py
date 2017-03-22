@@ -14,4 +14,4 @@ def handle_message(message):
 def handle_message(message):
     print('received message: ' + str(message))
     if len(message) is not 0:
-        emit('message', response())
+        emit('message', response(message))
